@@ -11,7 +11,7 @@ Class {
 HTMLLabelElement class >> attributeSpec [
 	"Returns a specification for the attributes"
 	
-	^#(accessKey for form)
+	^#(for form)
 ]
 
 { #category : #accessing }

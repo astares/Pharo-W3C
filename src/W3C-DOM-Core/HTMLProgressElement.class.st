@@ -1,21 +1,23 @@
 "
-Client-side image map
+Represents the progress of a task.
+
+
 "
 Class {
-	#name : #HTMLMapElement,
+	#name : #HTMLProgressElement,
 	#superclass : #HTMLElement,
 	#category : #'W3C-DOM-Core-HTML'
 }
 
 { #category : #accessing }
-HTMLMapElement class >> attributeSpec [
+HTMLProgressElement class >> attributeSpec [
 	"Returns a specification for the attributes"
 	
-	^#(name)
+	^#(max value)
 ]
 
 { #category : #accessing }
-HTMLMapElement class >> tag [
+HTMLProgressElement class >> tag [
 
-	^'map'
+	^'progress'
 ]

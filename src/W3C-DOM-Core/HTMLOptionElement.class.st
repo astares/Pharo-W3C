@@ -11,7 +11,7 @@ Class {
 HTMLOptionElement class >> attributeSpec [
 	"Returns a specification for the attributes"
 	
-	^#(defaultSelected disabled form index label selected text value)
+	^#(disabled label selected value)
 ]
 
 { #category : #accessing }

@@ -11,7 +11,7 @@ Class {
 HTMLLegendElement class >> attributeSpec [
 	"Returns a specification for the attributes"
 	
-	^#(accessKey align form)
+	^#(align)
 ]
 
 { #category : #accessing }

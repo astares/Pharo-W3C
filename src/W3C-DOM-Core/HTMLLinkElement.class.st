@@ -11,7 +11,7 @@ Class {
 HTMLLinkElement class >> attributeSpec [
 	"Returns a specification for the attributes"
 	
-	^#(charset disabled href hreflang media rel rev target type)
+	^#(charset crossOrigin href hreflang media rel rev sizes target type)
 ]
 
 { #category : #accessing }

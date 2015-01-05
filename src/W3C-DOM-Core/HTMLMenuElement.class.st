@@ -12,7 +12,7 @@ Class {
 HTMLMenuElement class >> attributeSpec [
 	"Returns a specification for the attributes"
 	
-	^#(compact)
+	^#(label type)
 ]
 
 { #category : #accessing }

@@ -1,21 +1,21 @@
 "
-Client-side image map
+Defines preformatted text
 "
 Class {
-	#name : #HTMLMapElement,
+	#name : #HTMLPreformattedTextElement,
 	#superclass : #HTMLElement,
 	#category : #'W3C-DOM-Core-HTML'
 }
 
 { #category : #accessing }
-HTMLMapElement class >> attributeSpec [
+HTMLPreformattedTextElement class >> attributeSpec [
 	"Returns a specification for the attributes"
 	
-	^#(name)
+	^#(width)
 ]
 
 { #category : #accessing }
-HTMLMapElement class >> tag [
+HTMLPreformattedTextElement class >> tag [
 
-	^'map'
+	^'pre'
 ]

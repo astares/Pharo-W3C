@@ -11,7 +11,7 @@ Class {
 HTMLMetaElement class >> attributeSpec [
 	"Returns a specification for the attributes"
 	
-	^#(content httpEquiv name scheme)
+	^#(charset content httpEquiv name scheme)
 ]
 
 { #category : #accessing }

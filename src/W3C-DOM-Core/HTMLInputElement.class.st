@@ -11,7 +11,7 @@ Class {
 HTMLInputElement class >> attributeSpec [
 	"Returns a specification for the attributes"
 	
-	^#(accept accessKey align alt checked defaultChecked defaultValue disabled maxLength name readOnly size src tabIndex type useMap value)
+	^#(accept align alt autocomplete autofocus checked disabled form formAction formEnctype formMethod formNoValidate formTarget height list max maxLength min multiple name pattern placeholder readOnly required size src step type value width)
 ]
 
 { #category : #accessing }

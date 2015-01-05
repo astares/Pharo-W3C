@@ -11,7 +11,7 @@ Class {
 HTMLObjectElement class >> attributeSpec [
 	"Returns a specification for the attributes"
 	
-	^#(align archive border code codeBase codeType contentDocument data declare form height hSpace name standby tabIndex type useMap vSpace width)
+	^#(align archive border classid codeBase codeType data declare form height hSpace name standby type useMap vSpace width)
 ]
 
 { #category : #accessing }

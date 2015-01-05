@@ -11,7 +11,7 @@ Class {
 HTMLImageElement class >> attributeSpec [
 	"Returns a specification for the attributes"
 	
-	^#(align alt border height hSpace isMap longDesc name src useMap vSpace width)
+	^#(align alt border crossOrigin height hSpace isMap longDesc src useMap vSpace width)
 ]
 
 { #category : #accessing }

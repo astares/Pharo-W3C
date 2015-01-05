@@ -1,21 +1,21 @@
 "
-List item
+Ordered list.
 "
 Class {
-	#name : #HTMLLIElement,
+	#name : #HTMLOrderedListElement,
 	#superclass : #HTMLElement,
 	#category : #'W3C-DOM-Core-HTML'
 }
 
 { #category : #accessing }
-HTMLLIElement class >> attributeSpec [
+HTMLOrderedListElement class >> attributeSpec [
 	"Returns a specification for the attributes"
 	
-	^#(type value)
+	^#(compact reversed start type)
 ]
 
 { #category : #accessing }
-HTMLLIElement class >> tag [
+HTMLOrderedListElement class >> tag [
 
-	^'li'
+	^'ol'
 ]
