@@ -1,3 +1,6 @@
+"
+Defines a table caption.
+"
 Class {
 	#name : #HTMLCaptionElement,
 	#superclass : #HTMLElement,

@@ -11,7 +11,7 @@ Class {
 HTMLHtmlElement class >> attributeSpec [
 	"Returns a specification for the attributes"
 	
-	^#(version)
+	^#(manifest xmlns)
 ]
 
 { #category : #accessing }

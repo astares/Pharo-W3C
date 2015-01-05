@@ -1,21 +1,21 @@
 "
-Organizes form controls into logical groups.
+Defines a dialog box or window.
 "
 Class {
-	#name : #HTMLFieldSetElement,
+	#name : #HTMLDialogElement,
 	#superclass : #HTMLElement,
 	#category : #'W3C-DOM-Core-HTML'
 }
 
 { #category : #accessing }
-HTMLFieldSetElement class >> attributeSpec [
+HTMLDialogElement class >> attributeSpec [
 	"Returns a specification for the attributes"
 	
-	^#(disabled form name)
+	^#(open)
 ]
 
 { #category : #accessing }
-HTMLFieldSetElement class >> tag [
+HTMLDialogElement class >> tag [
 
-	^'fieldset'
+	^'dialog'
 ]
