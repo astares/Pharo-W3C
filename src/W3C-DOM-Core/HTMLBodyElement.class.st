@@ -4,7 +4,7 @@ The HTML document body.
 Class {
 	#name : #HTMLBodyElement,
 	#superclass : #HTMLElement,
-	#category : #'W3C-DOM-Core-HTML2'
+	#category : #'W3C-DOM-Core-HTML'
 }
 
 { #category : #accessing }

@@ -4,7 +4,7 @@ Document base URI
 Class {
 	#name : #HTMLBaseElement,
 	#superclass : #HTMLElement,
-	#category : #'W3C-DOM-Core-HTML2'
+	#category : #'W3C-DOM-Core-HTML'
 }
 
 { #category : #accessing }

@@ -4,7 +4,7 @@ Directory list. Deprecated in HTML 4.01.
 Class {
 	#name : #HTMLDirElement,
 	#superclass : #HTMLElement,
-	#category : #'W3C-DOM-Core-HTML2'
+	#category : #'W3C-DOM-Core-HTML'
 }
 
 { #category : #accessing }

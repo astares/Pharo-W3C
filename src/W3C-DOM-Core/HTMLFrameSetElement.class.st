@@ -4,7 +4,7 @@ Create a grid of frames.
 Class {
 	#name : #HTMLFrameSetElement,
 	#superclass : #HTMLElement,
-	#category : #'W3C-DOM-Core-HTML2'
+	#category : #'W3C-DOM-Core-HTML'
 }
 
 { #category : #accessing }

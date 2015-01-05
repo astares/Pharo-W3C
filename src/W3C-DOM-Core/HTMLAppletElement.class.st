@@ -4,7 +4,7 @@ An embedded Java applet.
 Class {
 	#name : #HTMLAppletElement,
 	#superclass : #HTMLElement,
-	#category : #'W3C-DOM-Core-HTML2'
+	#category : #'W3C-DOM-Core-HTML'
 }
 
 { #category : #accessing }

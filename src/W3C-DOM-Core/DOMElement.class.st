@@ -24,15 +24,22 @@ DOMElement class >> createAttributeAccessorsFor: aClass [
 	"This method was automatically generated"
 	
 	^self attributes at: ', attribute printString, ' ifAbsent: [ String empty ]'.		
-		aClass compileSilently: code classified: 'accessing - generated'
+		aClass compileSilently: code classified: self generatedProtocolName 
 	]
+]
+
+{ #category : #'private - accessing' }
+DOMElement class >> generatedProtocolName [
+	^'accessing - generated'
 ]
 
 { #category : #utilities }
 DOMElement class >> rebuildAttributeAccessors [
 	<script>
 	
+	
 	self withAllSubclassesDo: [:each |
+		each removeProtocol: self generatedProtocolName.
 		self createAttributeAccessorsFor: each	
 	]
 	
