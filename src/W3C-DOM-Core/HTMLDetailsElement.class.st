@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLDetailsElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(open)
 ]
 

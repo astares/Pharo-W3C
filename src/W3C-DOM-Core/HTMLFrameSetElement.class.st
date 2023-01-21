@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLFrameSetElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(cols rows)
 ]
 

@@ -10,6 +10,6 @@ Class {
 { #category : #accessing }
 HTMLHeadingElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(align)
 ]

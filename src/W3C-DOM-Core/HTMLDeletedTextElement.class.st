@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLDeletedTextElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(cite datetime)
 ]
 

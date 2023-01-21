@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLParamElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(name type value valueType)
 ]
 

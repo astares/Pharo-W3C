@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLTableElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(align bgColor border caption cellPadding cellSpacing frame rules summary)
 ]
 

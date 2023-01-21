@@ -10,6 +10,6 @@ Class {
 { #category : #accessing }
 HTMLElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(accessKey className contenteditable contextmenu dir draggable dropzone hidden id lang spellcheck style tabindex title translate)
 ]

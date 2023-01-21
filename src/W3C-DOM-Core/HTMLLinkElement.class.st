@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLLinkElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(charset crossOrigin href hreflang media rel rev sizes target type)
 ]
 

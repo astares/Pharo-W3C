@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLSelectElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(disabled form length multiple name selectedIndex size tabIndex type value)
 ]
 

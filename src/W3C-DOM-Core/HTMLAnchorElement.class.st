@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLAnchorElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(charset coords download href hrefLang media name rel rev shape target type)
 ]
 

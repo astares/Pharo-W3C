@@ -12,7 +12,7 @@ Class {
 { #category : #accessing }
 HTMLMenuItemElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(checked command default disabled icon label radiogroup type)
 ]
 

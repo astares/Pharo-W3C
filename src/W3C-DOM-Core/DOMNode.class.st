@@ -14,7 +14,7 @@ Class {
 { #category : #accessing }
 DOMNode >> attributes [
 	"Return the receivers attributes collection"
-	
+
 	^attributes ifNil: [ attributes := Dictionary new ]
 ]
 

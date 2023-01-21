@@ -12,7 +12,7 @@ Class {
 { #category : #accessing }
 HTMLProgressElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(max value)
 ]
 

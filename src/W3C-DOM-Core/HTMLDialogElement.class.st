@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLDialogElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(open)
 ]
 

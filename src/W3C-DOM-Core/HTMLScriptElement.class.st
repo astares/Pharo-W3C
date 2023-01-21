@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLScriptElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(charset defer event for src text type)
 ]
 

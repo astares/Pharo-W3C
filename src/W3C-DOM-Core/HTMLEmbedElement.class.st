@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLEmbedElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(height src type width)
 ]
 

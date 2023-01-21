@@ -5,7 +5,7 @@ Class {
 }
 
 { #category : #accessing }
-HTMLBodyElementTest >> defaultTestClass [ 
+HTMLBodyElementTest >> defaultTestClass [
 
 	^HTMLBodyElement
 ]

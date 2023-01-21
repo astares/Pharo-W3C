@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLParagraphElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(align)
 ]
 

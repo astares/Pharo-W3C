@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLQuoteElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(cite)
 ]
 

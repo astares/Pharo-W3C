@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLTableColumnElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(align char charOff span vAlign width)
 ]
 

@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLBodyElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(aLink background bgColor link text vLink)
 ]
 

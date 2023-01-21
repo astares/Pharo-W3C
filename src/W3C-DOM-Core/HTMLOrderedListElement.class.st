@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLOrderedListElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(compact reversed start type)
 ]
 

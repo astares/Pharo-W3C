@@ -10,6 +10,6 @@ Class {
 { #category : #accessing }
 HTMLTableCellElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(abbr align axis bgColor cellIndex char charOff colSpan headers height noWrap rowSpan scope vAlign width)
 ]

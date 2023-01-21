@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLBreakElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(clear)
 ]
 

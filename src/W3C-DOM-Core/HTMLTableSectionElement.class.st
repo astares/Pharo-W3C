@@ -10,6 +10,6 @@ Class {
 { #category : #accessing }
 HTMLTableSectionElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(align char charOff vAlign)
 ]

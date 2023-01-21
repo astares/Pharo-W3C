@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLMeterElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(form high low max min optimum value)
 ]
 

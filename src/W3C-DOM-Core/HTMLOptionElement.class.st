@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLOptionElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(disabled label selected value)
 ]
 

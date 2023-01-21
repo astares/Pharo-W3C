@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLTextAreaElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(accessKey cols defaultValue disabled form name readOnly rows tabIndex type value)
 ]
 

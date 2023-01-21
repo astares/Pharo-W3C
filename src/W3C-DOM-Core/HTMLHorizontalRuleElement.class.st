@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLHorizontalRuleElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(align noShade size width)
 ]
 

@@ -10,12 +10,12 @@ Class {
 { #category : #accessing }
 HTMLButtonElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(autofocus disabled form formAction formEnctype formMethod formNoValidate formTarget name type value)
 ]
 
 { #category : #accessing }
 HTMLButtonElement class >> tag [
 
-	^'button' 
+	^'button'
 ]

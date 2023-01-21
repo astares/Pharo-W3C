@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLIFrameElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(align frameBorder height longDesc marginHeight marginWidth name sandbox scrolling seamless src srcDoc width)
 ]
 

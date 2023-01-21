@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLCanvasElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(height width)
 ]
 

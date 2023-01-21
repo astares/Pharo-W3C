@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLInsertedTextElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(cite datetime)
 ]
 

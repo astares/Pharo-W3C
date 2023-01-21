@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLDirectoryListElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(compact)
 ]
 

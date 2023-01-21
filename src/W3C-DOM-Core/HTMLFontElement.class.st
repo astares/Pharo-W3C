@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLFontElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(color face size)
 ]
 

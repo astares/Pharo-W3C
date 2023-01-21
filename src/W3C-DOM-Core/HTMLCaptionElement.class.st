@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLCaptionElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(align)
 ]
 

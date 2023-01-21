@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 DOMElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#()
 ]
 
@@ -18,13 +18,13 @@ DOMElement class >> attributeSpec [
 DOMElement class >> createAttributeAccessorsFor: aClass [
 	| code|
 	aClass class methodDictionary at: #attributeSpec ifAbsent: [ ^self ].
-	
-	aClass attributeSpec do: [:attribute |  
+
+	aClass attributeSpec do: [:attribute |
 		code := attribute, '
 	"This method was automatically generated"
-	
-	^self attributes at: ', attribute printString, ' ifAbsent: [ String empty ]'.		
-		aClass compileSilently: code classified: self generatedProtocolName 
+
+	^self attributes at: ', attribute printString, ' ifAbsent: [ String empty ]'.
+		aClass compileSilently: code classified: self generatedProtocolName
 	]
 ]
 
@@ -36,19 +36,18 @@ DOMElement class >> generatedProtocolName [
 { #category : #utilities }
 DOMElement class >> rebuildAttributeAccessors [
 	<script>
-	
-	
+
+
 	self withAllSubclassesDo: [:each |
 		each removeProtocol: self generatedProtocolName.
-		self createAttributeAccessorsFor: each	
+		self createAttributeAccessorsFor: each
 	]
-	
 ]
 
 { #category : #accessing }
 DOMElement class >> tag [
 
-	^self subclassResponsibility 
+	^self subclassResponsibility
 ]
 
 { #category : #accessing }

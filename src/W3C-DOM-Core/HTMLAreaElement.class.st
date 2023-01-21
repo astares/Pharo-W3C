@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLAreaElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(alt coords download href hrefLang media noHref rel shape target type)
 ]
 

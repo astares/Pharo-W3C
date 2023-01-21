@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLBaseElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(href target)
 ]
 

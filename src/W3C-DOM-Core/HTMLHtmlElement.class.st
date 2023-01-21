@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLHtmlElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(manifest xmlns)
 ]
 

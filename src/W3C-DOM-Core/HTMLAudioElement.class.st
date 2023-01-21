@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLAudioElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(autoplay controls loop muted preload src)
 ]
 

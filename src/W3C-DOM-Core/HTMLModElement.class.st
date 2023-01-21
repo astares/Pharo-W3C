@@ -10,6 +10,6 @@ Class {
 { #category : #accessing }
 HTMLModElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(cite dateTime)
 ]

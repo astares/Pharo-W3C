@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLHeadElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(profile)
 ]
 

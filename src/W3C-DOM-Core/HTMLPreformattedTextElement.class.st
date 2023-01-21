@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLPreformattedTextElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(width)
 ]
 

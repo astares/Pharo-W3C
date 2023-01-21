@@ -20,5 +20,5 @@ DOMBuilder >> add: anElement [
 { #category : #accessing }
 DOMBuilder >> html [
 	root := HTMLHtmlElement new.
-	lastElement := root.
+	lastElement := root
 ]

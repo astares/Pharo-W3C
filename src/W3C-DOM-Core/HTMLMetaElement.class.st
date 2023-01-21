@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLMetaElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(charset content httpEquiv name scheme)
 ]
 

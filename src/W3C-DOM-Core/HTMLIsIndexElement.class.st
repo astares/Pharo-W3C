@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLIsIndexElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(prompt)
 ]
 

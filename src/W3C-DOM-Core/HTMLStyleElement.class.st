@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLStyleElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(disabled media type)
 ]
 

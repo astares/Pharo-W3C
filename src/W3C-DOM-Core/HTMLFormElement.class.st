@@ -13,7 +13,7 @@ Class {
 { #category : #accessing }
 HTMLFormElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(accept acceptCharset action autocomplete enctype method name noValidate target)
 ]
 

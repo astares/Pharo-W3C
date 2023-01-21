@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLListItemElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(type value)
 ]
 

@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLDListElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(compact)
 ]
 

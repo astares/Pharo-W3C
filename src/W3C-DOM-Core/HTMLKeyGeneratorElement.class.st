@@ -10,7 +10,7 @@ Class {
 { #category : #accessing }
 HTMLKeyGeneratorElement class >> attributeSpec [
 	"Returns a specification for the attributes"
-	
+
 	^#(autofocus challenge disabled form keytype name)
 ]
 
