@@ -7,7 +7,7 @@ W3C
 
 ```Smalltalk
 Metacello new
-  baseline:'AnimateCSS';
+  baseline:'W3C';
   repository: 'github://astares/Pharo-W3C:master/src';
   load.
 ```
