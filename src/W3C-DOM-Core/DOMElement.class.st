@@ -23,14 +23,15 @@ DOMElement class >> createAttributeAccessorsFor: aClass [
 		code := attribute, '
 	"This method was automatically generated"
 
-	^self attributes at: ', attribute printString, ' ifAbsent: [ String empty ]'.
+	^ self attributes at: ', attribute printString, ' ifAbsent: [ String empty ]'.
 		aClass compileSilently: code classified: self generatedProtocolName
 	]
 ]
 
 { #category : #'private - accessing' }
 DOMElement class >> generatedProtocolName [
-	^'accessing - generated'
+
+	^ 'accessing - generated'
 ]
 
 { #category : #utilities }
