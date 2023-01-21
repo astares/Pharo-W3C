@@ -4,14 +4,8 @@ Class {
 	#category : #'W3C-DOM-Core-Tests-HTML2'
 }
 
-{ #category : #accessing }
-HTMLBodyElementTest >> defaultTestClass [
-
-	^HTMLBodyElement
-]
-
 { #category : #tests }
 HTMLBodyElementTest >> testTag [
 
-	self assert: self defaultTestClass tag = 'body'
+	self assert: self defaultTestClass tag equals: 'body'
 ]

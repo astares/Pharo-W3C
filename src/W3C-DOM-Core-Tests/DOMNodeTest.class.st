@@ -9,3 +9,9 @@ DOMNodeTest >> testAttributes [
 
 	self assert: DOMNode new attributes isEmpty
 ]
+
+{ #category : #tests }
+DOMNodeTest >> testIsAbstract [
+
+	self assert: DOMNode isAbstract
+]

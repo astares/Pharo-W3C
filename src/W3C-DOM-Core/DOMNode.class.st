@@ -11,6 +11,12 @@ Class {
 	#category : #'W3C-DOM-Core-Common'
 }
 
+{ #category : #testing }
+DOMNode class >> isAbstract [
+
+	^ self == DOMNode
+]
+
 { #category : #accessing }
 DOMNode >> attributes [
 	"Return the receivers attributes collection"
