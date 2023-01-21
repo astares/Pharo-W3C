@@ -22,6 +22,6 @@ Install
 ```Smalltalk
 Metacello new 
 	repository: 'github://astares/Pharo-W3C:main/src';
-	baseline: 'Excel';
+	baseline: 'W3C';
 	load 	
 ```	
