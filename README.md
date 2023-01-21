@@ -1,5 +1,5 @@
 # Pharo-W3C
-W3C
+Implementations of W3C standard
 
 ## Quick Start
 
