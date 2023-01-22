@@ -1,7 +1,7 @@
 "
 A baseline for Astares implementation of W3C standards
 
-See [https://github.com/astares/Pharo-W3c](https://github.com/astares/Pharo-W3c)
+See [https://github.com/astares/Pharo-W3C](https://github.com/astares/Pharo-W3C)
 "
 Class {
 	#name : #BaselineOfW3C,
