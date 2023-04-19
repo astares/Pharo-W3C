@@ -2,7 +2,7 @@ Trait {
 	#name : #HTMLTCoreAttributes,
 	#instVars : [
 		'id',
-		'class',
+		'classList',
 		'style',
 		'title'
 	],
@@ -10,17 +10,17 @@ Trait {
 }
 
 { #category : #'accessing - attributes - core' }
-HTMLTCoreAttributes >> class [
+HTMLTCoreAttributes >> classList [
 	"Returns the space-separated list of classes"
 
-	^ class
+	^ classList
 ]
 
 { #category : #'accessing - attributes - core' }
-HTMLTCoreAttributes >> class: aString [
+HTMLTCoreAttributes >> classList: aString [
 	"Sets the space-separated list of classes"
 
-	class := aString
+	classList := aString
 ]
 
 { #category : #'accessing - attributes - core' }
