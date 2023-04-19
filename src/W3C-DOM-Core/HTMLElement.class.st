@@ -4,6 +4,8 @@ All HTML elements derive from this class
 Class {
 	#name : #HTMLElement,
 	#superclass : #DOMElement,
+	#traits : 'HTMLTCoreAttributes + HTMLTI18NAttributes',
+	#classTraits : 'HTMLTCoreAttributes classTrait + HTMLTI18NAttributes classTrait',
 	#category : #'W3C-DOM-Core-HTML'
 }
 
@@ -12,4 +14,10 @@ HTMLElement class >> attributeSpec [
 	"Returns a specification for the attributes"
 
 	^#(accessKey className contenteditable contextmenu dir draggable dropzone hidden id lang spellcheck style tabindex title translate)
+]
+
+{ #category : #testing }
+HTMLElement class >> isAbstract [
+
+	^ self == HTMLElement
 ]

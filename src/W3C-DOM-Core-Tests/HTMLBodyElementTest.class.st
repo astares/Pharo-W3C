@@ -1,7 +1,7 @@
 Class {
 	#name : #HTMLBodyElementTest,
 	#superclass : #HTMLElementTest,
-	#category : #'W3C-DOM-Core-Tests-HTML2'
+	#category : #'W3C-DOM-Core-Tests-HTML'
 }
 
 { #category : #tests }
