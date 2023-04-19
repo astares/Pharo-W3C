@@ -13,3 +13,9 @@ HTMLTableCellElement class >> attributeSpec [
 
 	^#(abbr align axis bgColor cellIndex char charOff colSpan headers height noWrap rowSpan scope vAlign width)
 ]
+
+{ #category : #testing }
+HTMLTableCellElement class >> isAbstract [
+
+	^ self == HTMLTableCellElement
+]

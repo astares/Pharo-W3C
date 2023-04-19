@@ -13,3 +13,9 @@ HTMLTableSectionElement class >> attributeSpec [
 
 	^#(align char charOff vAlign)
 ]
+
+{ #category : #testing }
+HTMLTableSectionElement class >> isAbstract [
+
+	^ self == HTMLTableSectionElement
+]

@@ -17,7 +17,7 @@ DOMElement class >> attributeSpec [
 { #category : #'private - utilities' }
 DOMElement class >> createAttributeAccessorsFor: aClass [
 	| code|
-	aClass class methodDictionary at: #attributeSpec ifAbsent: [ ^self ].
+	aClass class methodDictionary at: #attributeSpec ifAbsent: [ ^ self ].
 
 	aClass attributeSpec do: [:attribute |
 		code := attribute, '
@@ -38,7 +38,6 @@ DOMElement class >> generatedProtocolName [
 DOMElement class >> rebuildAttributeAccessors [
 	<script>
 
-
 	self withAllSubclassesDo: [:each |
 		each removeProtocol: self generatedProtocolName.
 		self createAttributeAccessorsFor: each
@@ -48,7 +47,7 @@ DOMElement class >> rebuildAttributeAccessors [
 { #category : #accessing }
 DOMElement class >> tag [
 
-	^self subclassResponsibility
+	^ self subclassResponsibility
 ]
 
 { #category : #accessing }

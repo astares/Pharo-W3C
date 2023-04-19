@@ -13,3 +13,9 @@ HTMLModElement class >> attributeSpec [
 
 	^#(cite dateTime)
 ]
+
+{ #category : #testing }
+HTMLModElement class >> isAbstract [
+
+	^ self == HTMLModElement
+]

@@ -13,3 +13,9 @@ HTMLHeadingElement class >> attributeSpec [
 
 	^#(align)
 ]
+
+{ #category : #testing }
+HTMLHeadingElement class >> isAbstract [
+
+	^ self == HTMLHeadingElement
+]

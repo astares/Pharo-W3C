@@ -1,3 +1,6 @@
+"
+Core attributes for an HTML element
+"
 Trait {
 	#name : #HTMLTCoreAttributes,
 	#instVars : [
