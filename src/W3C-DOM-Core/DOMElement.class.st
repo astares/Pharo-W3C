@@ -53,5 +53,5 @@ DOMElement class >> tag [
 { #category : #accessing }
 DOMElement >> tag [
 
-	^self class tag
+	^ self class tag
 ]

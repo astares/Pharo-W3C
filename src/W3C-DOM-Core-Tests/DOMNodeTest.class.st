@@ -4,10 +4,16 @@ Class {
 	#category : #'W3C-DOM-Core-Tests-Common'
 }
 
-{ #category : #tests }
-DOMNodeTest >> testAttributes [
+{ #category : #accessing }
+DOMNodeTest >> defaultTestClass [
 
-	self assert: DOMNode new attributes isEmpty
+	^ self class environment at: (self class name withoutSuffix: 'Test') asSymbol
+]
+
+{ #category : #tests }
+DOMNodeTest >> testEmptyAttributes [
+
+	self assert: self defaultTestClass new attributes isEmpty
 ]
 
 { #category : #tests }

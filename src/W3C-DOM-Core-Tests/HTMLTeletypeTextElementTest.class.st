@@ -6,3 +6,9 @@ Class {
 	#superclass : #HTMLFontStyleElementTest,
 	#category : #'W3C-DOM-Core-Tests-HTML-Deprecated'
 }
+
+{ #category : #tests }
+HTMLTeletypeTextElementTest >> testTag [
+
+	self assert: self defaultTestClass tag equals: 'tt'
+]
