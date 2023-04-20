@@ -1,14 +1,14 @@
 "
-Renders as emphasized text
+Defines the title of a work 
 "
 Class {
-	#name : #HTMLEmphasizedTextElement,
+	#name : #HTMLCitationElement,
 	#superclass : #HTMLPhraseElement,
 	#category : #'W3C-DOM-Core-HTML'
 }
 
 { #category : #accessing }
-HTMLEmphasizedTextElement class >> tag [
+HTMLCitationElement class >> tag [
 
-	^'em'
+	^'cite'
 ]

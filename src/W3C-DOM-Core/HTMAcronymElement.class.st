@@ -3,7 +3,7 @@ Deprecated - use `HTMLAbbreviationElement` instead
 "
 Class {
 	#name : #HTMAcronymElement,
-	#superclass : #HTMLElement,
+	#superclass : #HTMLPhraseElement,
 	#category : #'W3C-DOM-Core-HTML-Deprecated'
 }
 

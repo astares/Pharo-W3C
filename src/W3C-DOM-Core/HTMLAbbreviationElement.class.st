@@ -3,7 +3,7 @@ Defines an abbreviation or an acronym
 "
 Class {
 	#name : #HTMLAbbreviationElement,
-	#superclass : #HTMLElement,
+	#superclass : #HTMLPhraseElement,
 	#category : #'W3C-DOM-Core-HTML'
 }
 
