@@ -3,7 +3,7 @@ Script statements.
 "
 Class {
 	#name : #HTMLScriptElement,
-	#superclass : #HTMLElement,
+	#superclass : #HTMLSpecialElement,
 	#category : #'W3C-DOM-Core-HTML'
 }
 

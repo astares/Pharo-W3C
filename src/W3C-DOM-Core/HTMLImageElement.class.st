@@ -3,7 +3,7 @@ Embedded image.
 "
 Class {
 	#name : #HTMLImageElement,
-	#superclass : #HTMLElement,
+	#superclass : #HTMLSpecialElement,
 	#category : #'W3C-DOM-Core-HTML'
 }
 

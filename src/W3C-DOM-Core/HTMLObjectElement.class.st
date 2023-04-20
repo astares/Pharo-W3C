@@ -1,9 +1,9 @@
 "
-Generic embedded object.
+Element produces a line break in text (carriage-return)
 "
 Class {
 	#name : #HTMLObjectElement,
-	#superclass : #HTMLElement,
+	#superclass : #HTMLSpecialElement,
 	#category : #'W3C-DOM-Core-HTML'
 }
 

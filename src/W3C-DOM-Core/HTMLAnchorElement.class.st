@@ -3,7 +3,7 @@ The anchor element. Defines a hyperlink, which is used to link from one page to 
 "
 Class {
 	#name : #HTMLAnchorElement,
-	#superclass : #HTMLElement,
+	#superclass : #HTMLSpecialElement,
 	#category : #'W3C-DOM-Core-HTML'
 }
 

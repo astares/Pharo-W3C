@@ -1,9 +1,9 @@
 "
-Client-side image map
+is a generic inline container for phrasing content, which does not inherently represent anything
 "
 Class {
 	#name : #HTMLMapElement,
-	#superclass : #HTMLElement,
+	#superclass : #HTMLSpecialElement,
 	#category : #'W3C-DOM-Core-HTML'
 }
 
