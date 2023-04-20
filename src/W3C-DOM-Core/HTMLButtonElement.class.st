@@ -3,7 +3,7 @@ Push button
 "
 Class {
 	#name : #HTMLButtonElement,
-	#superclass : #HTMLElement,
+	#superclass : #HTMLFormControlElement,
 	#category : #'W3C-DOM-Core-HTML'
 }
 

@@ -3,7 +3,7 @@ Multi-line text field
 "
 Class {
 	#name : #HTMLTextAreaElement,
-	#superclass : #HTMLElement,
+	#superclass : #HTMLFormControlElement,
 	#category : #'W3C-DOM-Core-HTML'
 }
 

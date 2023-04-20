@@ -3,7 +3,7 @@ Form control
 "
 Class {
 	#name : #HTMLInputElement,
-	#superclass : #HTMLElement,
+	#superclass : #HTMLFormControlElement,
 	#category : #'W3C-DOM-Core-HTML'
 }
 

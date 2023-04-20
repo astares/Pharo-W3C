@@ -3,7 +3,7 @@ Form field label text.
 "
 Class {
 	#name : #HTMLLabelElement,
-	#superclass : #HTMLElement,
+	#superclass : #HTMLFormControlElement,
 	#category : #'W3C-DOM-Core-HTML'
 }
 

@@ -3,7 +3,7 @@ The select element allows the selection of an option.
 "
 Class {
 	#name : #HTMLSelectElement,
-	#superclass : #HTMLElement,
+	#superclass : #HTMLFormControlElement,
 	#category : #'W3C-DOM-Core-HTML'
 }
 
